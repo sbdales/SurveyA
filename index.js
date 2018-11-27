@@ -89,7 +89,7 @@ window.survey = new Survey.Model(json);
 survey
     .onComplete
     .add(function (result) {
-        window.location = "thankyou.html";
+        window.location = "thankyouA.html";
     });
 
 $("#surveyElement").Survey({model: survey});
